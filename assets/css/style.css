@@ -1,0 +1,49 @@
+body {
+/*	background: url("swColor.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position:absolute;*/
+	width: 60vw;
+	margin:auto;
+	text-align: center;
+	background-image: url("../images/stars.jpg");
+	color: yellow;
+
+}
+
+.instructions{
+	font-size:14px;
+}
+img{
+	height: 75px;
+	width: auto;
+}
+
+
+.theGame {
+	color: white;
+
+}
+
+.b , .a {
+	color:black;
+}
+
+.msg {
+	color:white;
+}
+
+.theOne{
+	color:green;
+}
+
+.enemies{
+	color:red;
+}
+.arena{
+	color:purple;
+}
+
+.defeated{
+	color:blue;
+}

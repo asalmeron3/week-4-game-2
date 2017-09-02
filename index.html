@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Star Wars RPG</title>
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Added a link to Bootstrap-->
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+	<div class = "theGame"> <h1> Star Wars RPG </h1></div>
+	<div class = "instructions"> 
+		<p> Select a character to start the game<br> <br>
+		There are four characters total. Each character has unique attack point, counter-attack points, and defense points.  <br><br>
+		To win the game, you must defeat the remaining three (3) characters. <br><br><p> Things to note: <br>   1) When you attack, the current opposing character will use its counter-attack to weaken your defense. <br>   2) Your attack deals more damage after each attack. Ex: 2nd attack deals twice the damage, 3rd attack deals three times the damage, etc. <br><em> Counter-Attacks by the opposing character remain the same.</em><br><br>
+		May the force be with you! </p>
+	</div>
+	<div class = "listedChars">
+        <button class = "b" id="char0" ><div id = "n0">Name1</div><div><img src="assets/images/obi.jpg"></div><div id = "d0"></div></button>
+
+        <button class = "b" id="char1" ><div id = "n1">Name2</div><div><img src="assets/images/luke.jpg"></div><div id = "d1"></div></button>
+
+        <button class = "b" id="char2" ><div id = "n2">Name3</div><div><img src="assets/images/sid.jpg"></div><div id = "d2"></div></button>
+
+        <button class = "b" id="char3" ><div id = "n3">Name4</div><div><img src="assets/images/maul.jpg"></div><div id = "d3"></div></button>
+	</div>
+	
+	<div class = "theOne"> <h4>Your Character:</h4><div class = "msg"></div> </div> 
+
+	<div class = "enemies"><h4>Enemies Available to Attack</h4></div>
+
+	<div class = "arena"> <h4>Fighting Section</h4><button class = "a" id="attack" ><h4>Attack</h4></button>
+	 <button class = "pa"><h4> Play Again</h4></div>
+
+
+	<div class = "defeated"><h4>Defeated</h4><br></div>
+
+
+<script type="text/javascript" src = "assets/javascript/game.js"></script>
+
+</body>
+</html>
+
